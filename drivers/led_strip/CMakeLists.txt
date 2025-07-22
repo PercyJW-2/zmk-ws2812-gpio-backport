@@ -1,0 +1,3 @@
+zephyr_library_amend()
+
+zephyr_library_sources_ifdef(CONFIG_WS2812_STRIP_GPIO_NEW ws2812_gpio_new.c)
